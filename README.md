@@ -90,8 +90,7 @@ In your real work you don't create conflicting changes on purpose. But for the s
 
     ```bash
     git reset --hard 32a63d7d09589d80a8ff614be85d854792798aee
-    ```
-
+    
 1. Now you are still on the master branch but the tip of your local branch is at the previous commit. Create a new branch called `lab-resolving-git-conflicts`:
 
     ```bash
@@ -140,3 +139,5 @@ After resolving the conflicts, add the fixed files and commit. In the commit mes
 Make a pull request to **merge the `lab-resolving-git-conflicts` branch of your fork to the bootcamp's lab repo**. This can be done in the webpage of your bootcamp's lab repo. Select the correct repos and branches in both the *base* and *head*. Git should tell you the pull request is able to be merged. Your pull request should look like:
 
 ![Git pull request](git-pull-request.png)
+
+#PruebaAlan
